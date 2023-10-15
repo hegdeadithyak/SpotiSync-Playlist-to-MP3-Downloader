@@ -25,7 +25,7 @@ python youtube.py "https://open.spotify.com/playlist/2UT2q9QKe44zTsHzRu7cr3?si=f
 Check Your Destination Folder,
 
 Once the conversion is complete, you can check your destination folder for the downloaded MP3 files.
-![image](https://github.com/Adithya4720/SpotiSync-Playlist-to-MP3-Downloader/assets/116452077/00aad7a8-22a7-43e9-b946-e9bcf6e11313)
+![image](https://github.com/Adithya4720/SpotiSync-Playlist-to-MP3-Downloader/assets/116452077/cf8f026b-2fe3-43d8-8a35-49a4ae6c76a6)
 
 Disclaimer
 SpotiSync does not guarantee the quality of the downloaded MP3 files and should be used responsibly and in compliance with copyright laws.
