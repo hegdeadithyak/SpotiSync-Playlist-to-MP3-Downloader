@@ -32,3 +32,13 @@ Once the conversion is complete, you can check your destination folder for the d
 
 Disclaimer
 SpotiSync does not guarantee the quality of the downloaded MP3 files and should be used responsibly and in compliance with copyright laws.
+
+------------
+# Future Ideas 🚀🚀🚀🚀
+Here are some future ideas to enhance SpotiSync:
+
+[ ] Implement Using CPP or Rust for Speed: 
+       >Consider implementing critical parts of the application in C++ or Rust to improve the download speed and efficiency.
+
+[ ] Provide a User Interface (UI): 
+       >Develop a user-friendly graphical interface that simplifies the process of converting Spotify playlists to MP3, making it accessible to a wider audience.
