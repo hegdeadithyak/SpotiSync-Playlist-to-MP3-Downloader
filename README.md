@@ -1,3 +1,6 @@
+#SpotiSync-Playlist-to-MP3-Downloader
+
+
 SpotiSync is a Python script that enables you to convert Spotify playlists into MP3 downloads on your local computer. This tool is designed for educational purposes and personal use. Please use it responsibly and respect copyright laws.
 
 Usage
