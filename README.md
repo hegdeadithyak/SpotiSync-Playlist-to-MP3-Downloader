@@ -1,25 +1,31 @@
-# SpotiSync-Playlist-to-MP3-Downloader
+SpotiSync is a Python script that enables you to convert Spotify playlists into MP3 downloads on your local computer. This tool is designed for educational purposes and personal use. Please use it responsibly and respect copyright laws.
 
-SpotiSync converts spotify playlists to MP3 downloads into your local Computers.
+Usage
+Follow the steps below to set up and use SpotiSync:
 
-Step-1:
-Clone the Repository 
-```
-cd python
-```
-Step-2:
-Run the following and replace link with the spotify playlist link and Replace folder with your Destined folder
+Step 1: Clone the Repository
+First, clone the SpotiSync repository to your local machine.
 
 ```
-python youtube.py link folder
+git clone https://github.com/yourusername/SpotiSync.git
+cd SpotiSync/python
 ```
+Step 2: Run SpotiSync
+Now, use SpotiSync to convert a Spotify playlist to MP3. Run the following command, replacing "your_spotify_playlist_link" with the Spotify playlist link and "your_destination_folder" with your preferred destination folder.
+
+```
+python youtube.py "your_spotify_playlist_link" "your_destination_folder"
+```
+
 Example:
-
 ```
-python youtube.py "https://open.spotify.com/playlist/2UT2q9QKe44zTsHzRu7cr3?si=faa4dd52e5b24865" "C:\Users\ADITHYA\Desktop\SpotiSync"
+python youtube.py "https://open.spotify.com/playlist/2UT2q9QKe44zTsHzRu7cr3?si=faa4dd52e5b24865" "C:\Users\YourUsername\Desktop\SpotiSync"
+```
 
-``` 
+Check Your Destination Folder,
 
-This doesn't guarantee you the quality.This is just for educational purposes.
+Once the conversion is complete, you can check your destination folder for the downloaded MP3 files.
+![image](https://github.com/Adithya4720/SpotiSync-Playlist-to-MP3-Downloader/assets/116452077/00aad7a8-22a7-43e9-b946-e9bcf6e11313)
 
-
+Disclaimer
+SpotiSync does not guarantee the quality of the downloaded MP3 files and should be used responsibly and in compliance with copyright laws.
