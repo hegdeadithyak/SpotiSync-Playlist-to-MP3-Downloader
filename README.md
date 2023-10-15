@@ -16,7 +16,7 @@ python youtube.py link folder
 Example:
 
 ```
-python youtube.py "https://open.spotify.com/playlist/2UT2q9QKe44zTsHzRu7cr3?si=faa4dd52e5b24865" ""C:\Users\ADITHYA\Desktop\SpotiSync"
+python youtube.py "https://open.spotify.com/playlist/2UT2q9QKe44zTsHzRu7cr3?si=faa4dd52e5b24865" "C:\Users\ADITHYA\Desktop\SpotiSync"
 
 ``` 
 
