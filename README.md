@@ -36,7 +36,7 @@ SpotiSync does not guarantee the quality of the downloaded MP3 files and should 
 ------------
 # Future Ideas 🚀🚀🚀🚀
 Here are some future ideas to enhance SpotiSync:
-
+- [ ] Implement by WebScraping which does not require CLIENT_ID,CLIENT_SECRET
 - [ ] Implement Using CPP or Rust for Speed: 
        -Consider implementing critical parts of the application in C++ or Rust to improve the download speed and efficiency.
 
