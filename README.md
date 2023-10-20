@@ -39,7 +39,6 @@ SpotiSync does not guarantee the quality of the downloaded MP3 files and should 
 
 I've added workflows to our project and welcome contributions from the community. If you'd like to contribute, please follow these guidelines:
 
-===========
 
 # Workflow Contributions:
 
