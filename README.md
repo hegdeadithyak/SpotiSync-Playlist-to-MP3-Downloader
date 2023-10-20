@@ -33,6 +33,25 @@ Once the conversion is complete, you can check your destination folder for the d
 Disclaimer
 SpotiSync does not guarantee the quality of the downloaded MP3 files and should be used responsibly and in compliance with copyright laws.
 
+## Contribute:
+
+# Contribution Guidelines:
+
+I've added workflows to our project and welcome contributions from the community. If you'd like to contribute, please follow these guidelines:
+
+===========
+
+# Workflow Contributions:
+
+- [*] Fork the repository to your GitHub account.
+- [*] Create a new branch in your forked repository for your contribution.
+- [*] Implement the desired changes, new features, or bug fixes in your branch.
+- [*] Ensure that your code adheres to our coding standards and conventions.
+- [*] Test your changes to make sure they work as intended.
+- [*] Create a clear and informative pull request (PR) to the original repository.
+- [*] In your PR, provide a detailed description of the problem or enhancement, including any relevant context.
+- [*] Our team will review your contribution, provide feedback, and, if all is well, merge your PR.
+
 ------------
 # Future Ideas 🚀🚀🚀🚀
 Here are some future ideas to enhance SpotiSync:
