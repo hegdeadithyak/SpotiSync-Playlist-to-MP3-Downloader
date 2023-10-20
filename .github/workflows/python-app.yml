@@ -29,9 +29,6 @@ jobs:
       - name: Install dependencies
         run: pip install spotipy
       
-      - name: Diretcting YOUTUBE.py
-        run : cd python
-      
       - name: Download Songs
-        run: python youtube.py  "https://open.spotify.com/playlist/2UT2q9QKe44zTsHzRu7cr3?si=eafd1c7777964fe6" "/home"
+        run: python python/youtube.py  "https://open.spotify.com/playlist/2UT2q9QKe44zTsHzRu7cr3?si=eafd1c7777964fe6" '/home/runner/work/SpotiSync-Playlist-to-MP3-Downloader/SpotiSync-Playlist-to-MP3-Downloader/DownloadedSongs'
         
