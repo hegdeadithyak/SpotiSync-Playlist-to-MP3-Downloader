@@ -31,5 +31,5 @@ jobs:
              
       
       - name: Download Songs
-        run: python python/youtube.py  "https://open.spotify.com/playlist/2UT2q9QKe44zTsHzRu7cr3?si=eafd1c7777964fe6" '/home/runner/work/SpotiSync-Playlist-to-MP3-Downloader/SpotiSync-Playlist-to-MP3-Downloader/DownloadedSongs'
+        run: python python/youtube.py  "https://open.spotify.com/playlist/2UT2q9QKe44zTsHzRu7cr3?si=eafd1c7777964fe6" '/home/runner/work/SpotiSync-Playlist-to-MP3-Downloader//DownloadedSongs'
         
