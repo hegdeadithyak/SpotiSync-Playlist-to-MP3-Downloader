@@ -1,0 +1,33 @@
+name: SpotiSync
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  fetch-playlist-names:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+
+      - name: Use GitHub Secrets
+        env:
+          SPOTIPY_CLIENT_ID: ${{ secrets.SPOTIPY_CLIENT_ID }}
+          SPOTIPY_CLIENT_SECRET: ${{ secrets.SPOTIPY_CLIENT_SECRET }}
+        run: |
+          echo "Using Spotify Client ID: $SPOTIPY_CLIENT_ID"
+          echo "Using Spotify Client Secret: $SPOTIPY_CLIENT_SECRET"
+
+      - name: Install dependencies
+        run: pip install spotipy
+
+      - name: Download Songs
+        run: python youtube.py  "https://open.spotify.com/playlist/2UT2q9QKe44zTsHzRu7cr3?si=eafd1c7777964fe6" "/Downloadedsongs"  
