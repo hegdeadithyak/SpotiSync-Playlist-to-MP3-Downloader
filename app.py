@@ -12,8 +12,6 @@ def submit():
     data = request.get_json()
     input_data = data['inputData']
 
-    # Pass the input_data to your Python file or perform desired operations
-    # Example: Save to a file
     with open('output.txt', 'w') as file:
         file.write(input_data)
 

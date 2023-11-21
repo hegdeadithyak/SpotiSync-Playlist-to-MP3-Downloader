@@ -4,12 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Input</title>
+    <title>SpotiSyncs Playlist to MP3 converter</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>SpotiSync-Playlist to MP3 converter</h1>
     <form id="dataForm">
         <label for="inputData">Enter Data:</label>
         <input type="text" id="inputData" name="inputData" required>
+        <br>
+        <br>
         <button type="button" onclick="submitData()">Submit</button>
     </form>
 
@@ -17,7 +21,7 @@
         function submitData() {
             var inputData = document.getElementById("inputData").value;
 
-            // Using Fetch API to send data to the server
+            
             fetch('/submit', {
                 method: 'POST',
                 headers: {
