@@ -55,4 +55,4 @@ I've added workflows to our project and welcome contributions from the community
 # Future Ideas 🚀🚀🚀🚀
 Here are some future ideas to enhance SpotiSync:
 - [ ] Implement by WebScraping which does not require CLIENT_ID,CLIENT_SECRET
-- [*] Website for SpotiSync.
+- [ * ] Website for SpotiSync.
