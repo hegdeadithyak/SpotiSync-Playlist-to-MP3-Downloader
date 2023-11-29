@@ -55,8 +55,4 @@ I've added workflows to our project and welcome contributions from the community
 # Future Ideas 🚀🚀🚀🚀
 Here are some future ideas to enhance SpotiSync:
 - [ ] Implement by WebScraping which does not require CLIENT_ID,CLIENT_SECRET
-- [ ] Implement Using CPP or Rust for Speed: 
-       -Consider implementing critical parts of the application in C++ or Rust to improve the download speed and efficiency.
-- [ ] Website for SpotiSync(We don't Deploy, We don't do that here).
-- [ ] Provide a User Interface (UI): 
-       -Develop a user-friendly graphical interface that simplifies the process of converting Spotify playlists to MP3, making it accessible to a wider audience.
+- [*] Website for SpotiSync.
