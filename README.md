@@ -42,14 +42,14 @@ I've added workflows to our project and welcome contributions from the community
 
 # Workflow Contributions:
 
-- [*] Fork the repository to your GitHub account.
-- [*] Create a new branch in your forked repository for your contribution.
-- [*] Implement the desired changes, new features, or bug fixes in your branch.
-- [*] Ensure that your code adheres to our coding standards and conventions.
-- [*] Test your changes to make sure they work as intended.
-- [*] Create a clear and informative pull request (PR) to the original repository.
-- [*] In your PR, provide a detailed description of the problem or enhancement, including any relevant context.
-- [*] Our team will review your contribution, provide feedback, and, if all is well, merge your PR.
+- [ ] Fork the repository to your GitHub account.
+- [ ] Create a new branch in your forked repository for your contribution.
+- [ ] Implement the desired changes, new features, or bug fixes in your branch.
+- [ ] Ensure that your code adheres to our coding standards and conventions.
+- [ ] Test your changes to make sure they work as intended.
+- [ ] Create a clear and informative pull request (PR) to the original repository.
+- [ ] In your PR, provide a detailed description of the problem or enhancement, including any relevant context.
+- [ ] Our team will review your contribution, provide feedback, and, if all is well, merge your PR.
 
 ------------
 # Future Ideas 🚀🚀🚀🚀
