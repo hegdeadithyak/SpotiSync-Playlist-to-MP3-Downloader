@@ -35,7 +35,6 @@ def download_audio(video_url):
         print("Failed to download audio")
 
 
-if __name__ == "__main__":
-    for idx,url in enumerate(youtube_url_lists):
+for idx,url in enumerate(youtube_url_lists):
         print(f"Downloading {idx+1}/{len(youtube_url_lists)}: {song_name_lists[idx]}")
         download_audio(url)
