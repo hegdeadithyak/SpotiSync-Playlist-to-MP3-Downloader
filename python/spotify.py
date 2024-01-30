@@ -1,10 +1,7 @@
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import os
-from dotenv import load_dotenv
 
-# Load the environment variables from .env.local file
-load_dotenv('.env.local')
 
 # Get the client_id from environment variables
 
