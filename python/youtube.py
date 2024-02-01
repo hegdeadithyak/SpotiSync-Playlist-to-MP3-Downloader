@@ -11,7 +11,7 @@ Playlist_url = sys.argv[1]
 # Create an empty list to store playlist tracks
 song_name_lists = []
 get_playlist_tracks(Playlist_url, song_name_lists)
-
+songs  = song_name_lists
 song_name_lists = [song.replace(" ", "+") for song in song_name_lists]
 #Define youtube URL lists
 youtube_url_lists = []
@@ -36,5 +36,5 @@ def download_audio(video_url):
 
 
 for idx,url in enumerate(youtube_url_lists):
-        print(f"Downloading {idx+1}/{len(youtube_url_lists)}: {song_name_lists[idx]}")
+        print(f"Downloading {idx+1}/{len(youtube_url_lists)}: {songs[idx]}")
         download_audio(url)
