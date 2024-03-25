@@ -1,4 +1,10 @@
-*.db
-*.py[cod]
-.web
+*.db
+
+*.py[cod]
+
+.web
+
 __pycache__/
+
+.env.local
+.cache
